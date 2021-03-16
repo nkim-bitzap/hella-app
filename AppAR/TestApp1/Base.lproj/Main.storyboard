@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller Screen176-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ID_vc_176" id="BYZ-38-t0r" customClass="ViewControllerScreen176" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="176-screen-background" translatesAutoresizingMaskIntoConstraints="NO" id="ZBj-Iq-qtk">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="176-logo-hella" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-dc-QrH">
+                                <rect key="frame" x="42.666666666666657" y="72" width="305" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="176-logo-xray" translatesAutoresizingMaskIntoConstraints="NO" id="rHi-wq-mNn">
+                                <rect key="frame" x="123" y="198" width="215" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="176-lineedit-user" translatesAutoresizingMaskIntoConstraints="NO" id="Pbe-iF-Vh5">
+                                <rect key="frame" x="52.666666666666657" y="443" width="285" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dSz-6J-jhb">
+                                <rect key="frame" x="94" y="450" width="236" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="usernameEdited" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="DXQ-Fv-vAr"/>
+                                </connections>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="176-lineedit-password" translatesAutoresizingMaskIntoConstraints="NO" id="BlU-dt-mIX">
+                                <rect key="frame" x="52.666666666666657" y="517" width="285" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HNM-te-HOd">
+                                <rect key="frame" x="94" y="524" width="236" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="passwordEntered" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="W5c-w2-ZoT"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSi-5G-bJd">
+                                <rect key="frame" x="299" y="581" width="39" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ButtonSignup" image="176-icon-signup2"/>
+                            </button>
+                            <toolbar clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dC-An-WAx">
+                                <rect key="frame" x="0.0" y="709" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="20"/>
+                                <items>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="0oV-mG-ujd"/>
+                                    <barButtonItem title="ItemApple" image="176-icon-apple" id="GkM-4W-NNQ">
+                                        <inset key="imageInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Jin-wO-r47"/>
+                                    <barButtonItem title="ItemGoogle" image="176-icon-google" id="nMk-q3-HfZ"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="iow-k8-zjb"/>
+                                    <barButtonItem title="ItemLinkedIn" image="176-icon-linkedin" id="Rwg-Tt-4zw"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Cze-vQ-tSG"/>
+                                    <barButtonItem title="ItemFacebook" image="176-icon-facebook" id="Mrs-cA-JuV"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aCI-ci-0Ac"/>
+                                    <barButtonItem title="ItemYoutube" image="176-icon-youtube" id="ntx-2o-4MV"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="h0M-uS-nXX"/>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRR-OB-EeU">
+                                <rect key="frame" x="294" y="618" width="43" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textFieldPassword" destination="HNM-te-HOd" id="njb-pr-K98"/>
+                        <outlet property="textFieldUsername" destination="dSz-6J-jhb" id="MTY-66-EGk"/>
+                        <segue destination="fxD-Hp-vCE" kind="presentation" identifier="ID_segue_in_132" modalPresentationStyle="fullScreen" id="h2X-5z-kcl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.46153846153846" y="76.066350710900466"/>
+        </scene>
+        <!--View Controller Screen132-->
+        <scene sceneID="3dU-Ty-0ST">
+            <objects>
+                <viewController storyboardIdentifier="ID_vc_132" id="fxD-Hp-vCE" customClass="ViewControllerScreen132" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IGT-bd-t1d">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="132-screen-background" translatesAutoresizingMaskIntoConstraints="NO" id="JHm-UU-1hc">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="132-image-project1" translatesAutoresizingMaskIntoConstraints="NO" id="uFD-Rl-3vW">
+                                <rect key="frame" x="0.0" y="84" width="390" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="132-icon-project" translatesAutoresizingMaskIntoConstraints="NO" id="b9o-SH-CX7">
+                                <rect key="frame" x="16" y="584" width="160" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="132-image-footer" translatesAutoresizingMaskIntoConstraints="NO" id="ErA-2K-HQi">
+                                <rect key="frame" x="0.0" y="703" width="390" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <toolbar clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzM-9l-T4y">
+                                <rect key="frame" x="0.0" y="735" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="rsm-kN-WLq"/>
+                                    <barButtonItem title="ItemProduct" image="132-icon-products" id="YFm-mh-j34"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="AB7-G7-ehU"/>
+                                    <barButtonItem title="ItemCamera" image="132-icon-camera" id="fB7-Zm-nzp"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="uYM-tL-ZbY"/>
+                                    <barButtonItem title="ItemEmail" image="132-icon-email" id="pDV-md-dW2"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="zIi-KT-VRl"/>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlR-aA-lsW">
+                                <rect key="frame" x="111" y="385" width="168" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="132-icon-scan"/>
+                                <connections>
+                                    <segue destination="WUb-IZ-R96" kind="presentation" modalPresentationStyle="fullScreen" id="FRF-Db-qsJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7vI-34-8D4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fZr-zz-HaN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ER-My-oYt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804.61538461538464" y="75.355450236966817"/>
+        </scene>
+        <!--View Controller Screen102-->
+        <scene sceneID="XgQ-hk-UCb">
+            <objects>
+                <viewController storyboardIdentifier="ID_vc_102" id="WUb-IZ-R96" customClass="ViewControllerScreen102" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wET-Hp-C7V">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="102-screen-background" translatesAutoresizingMaskIntoConstraints="NO" id="C07-zZ-Tie">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obh-5t-4hr">
+                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-d8-71W">
+                                        <rect key="frame" x="112" y="619" width="167" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="102-icon-record"/>
+                                        <connections>
+                                            <action selector="buttonScanTouchDown:" destination="WUb-IZ-R96" eventType="touchDown" id="GEf-wh-hPO"/>
+                                            <action selector="buttonScanTouchUpInside:" destination="WUb-IZ-R96" eventType="touchUpInside" id="zgx-Jk-VrK"/>
+                                            <action selector="buttonScanTouchUpOutside:" destination="WUb-IZ-R96" eventType="touchUpOutside" id="w6m-WD-HeZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HrG-6J-B7j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tm7-3I-9Wy"/>
+                    <connections>
+                        <outlet property="buttonScan" destination="UgK-d8-71W" id="3rV-n3-ICT"/>
+                        <outlet property="viewCamera" destination="Obh-5t-4hr" id="b2N-k4-CFf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAZ-Wj-QlD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587.6923076923076" y="75.355450236966817"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="102-icon-record" width="167" height="147"/>
+        <image name="102-screen-background" width="375" height="812"/>
+        <image name="132-icon-camera" width="35" height="20"/>
+        <image name="132-icon-email" width="30" height="23"/>
+        <image name="132-icon-products" width="29" height="25"/>
+        <image name="132-icon-project" width="152" height="74"/>
+        <image name="132-icon-scan" width="167" height="167"/>
+        <image name="132-image-footer" width="393" height="88"/>
+        <image name="132-image-project1" width="393" height="251"/>
+        <image name="132-screen-background" width="375" height="812"/>
+        <image name="176-icon-apple" width="29" height="35"/>
+        <image name="176-icon-facebook" width="32" height="32"/>
+        <image name="176-icon-google" width="30" height="30"/>
+        <image name="176-icon-linkedin" width="32" height="32"/>
+        <image name="176-icon-signup2" width="38" height="39"/>
+        <image name="176-icon-youtube" width="32" height="32"/>
+        <image name="176-lineedit-password" width="285" height="46"/>
+        <image name="176-lineedit-user" width="285" height="46"/>
+        <image name="176-logo-hella" width="305" height="61"/>
+        <image name="176-logo-xray" width="216" height="219"/>
+        <image name="176-screen-background" width="375" height="812"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
